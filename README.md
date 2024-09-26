@@ -17,7 +17,8 @@ To ensure a clear understanding of the project goals, an initial quiz was conduc
 
 # 2. Exploratory Data Analysis An exploratory data analysis (EDA) was conducted to gain a comprehensive understanding of the dataset. The data included photographs of individuals along with their corresponding ages, which formed the basis for training the age verification model.
 
-# 3. Model Training and Evaluation Given the computational intensity of the task, model training and evaluation were conducted on a GPU platform. A pre-trained ResNet50 model served as the foundation, with various configurations tested to optimize performance. The results are summarized in the table below:
+# 3. Model Training and Evaluation
+Given the computational intensity of the task, model training and evaluation were conducted on a GPU platform. A pre-trained ResNet50 model served as the foundation, with various configurations tested to optimize performance. The results are summarized in the table below:
 
 Dropout	Learning Rate	Test MAE
 None	0.0001	6.2608
